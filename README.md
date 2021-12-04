@@ -1,7 +1,7 @@
 # Color Palettes Landing Page
 
 I created Color Palettes landing page using HTML, CSS, Bootstrap and Javascript.
-Thanks to **Nasyiya Ulfa** for sharing her amazing designs with me. Don't forget take a look at her designs on [Dribbble](https://dribbble.com/Nasyiyaulfa)
+Thanks to **Nasyiya Ulfa** for sharing her amazing designs with me. Don't forget to take a look at her designs on [Dribbble](https://dribbble.com/Nasyiyaulfa)
 Also special thanks to **Hakan Yalçınkaya** and **UP School** for occasioning this experience.
 
 You can find the page I created [here](https://imcagla.github.io/ColorPalettes/). Don't forget to click on the color you like in popular palettes😉.
