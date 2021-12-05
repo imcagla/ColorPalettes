@@ -9,3 +9,5 @@ You can find the page I created [here](https://imcagla.github.io/ColorPalettes/)
 
 Original Design Link: [Color Palettes Landing Page by Nasyiya Ulfa](https://dribbble.com/shots/13940580-Color-Palettes-Landing-Page).
 Follow Nasyiya on [Instagram](https://www.instagram.com/nasyiya.design/).
+
+![Preview:](images/colorpalettes.gif)
