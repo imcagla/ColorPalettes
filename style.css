@@ -85,7 +85,7 @@ body {
 }
 .image-crop-footer {
     width: 89%;
-    height: 340px;
+    height: 365px;
     object-fit: cover;
     object-position: 100% 0%;
 }
