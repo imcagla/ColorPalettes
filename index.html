@@ -23,9 +23,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link fw-bold px-4 active" aria-current="page" href="#">Color Picker</a>
+              <a class="nav-link fw-bold px-4 active text-purple" aria-current="page" href="#">Color Picker
+              </a>
               <a class="nav-link fw-bold px-4" href="#">Explore</a>
-              <a class="nav-link fw-bold px-4" href="#">More</a>
+              <a class="nav-link fw-bold px-4" href="#">More <span><i class="fas fa-chevron-down"></i></span></a>
               <a class="nav-link fw-bold px-4" href="#">Sign in</a>
               <button class="btn btn-outline-purple rounded-pill px-3 fw-bold">
                   Sign up
@@ -39,14 +40,25 @@
     <div class="hero-container">
         <img src="images/background.png" class="position-absolute top-0 z-bottom image-crop" width="1400" alt="">
         <div class="container">
-            <div class="row align-items-center mt-5 pt-5">
+            <div class="row align-items-center mt-5 pt-2">
                 <div class="col-md-6 order-2">
                     <header class="display-2 fw-bold">Pick Your Color Here!</header>
                     <p class="py-4">Get inspired by thousands of beautiful color schemes.</p>
                     <button class="btn btn-purple btn-lg text-light px-5 shadow rounded-pill px-3 fw-bold">Let's Go!</button>
                 </div>
-                <div class="col-md-6 order-1 order-md-2">
+                <div class="col-md-6 order-1 order-md-2 position-relative">
+                    <img src="images/bluepalette.png" class="position-absolute translate-middle ms-5 mt-5 d-none d-md-block" width="300" alt="">
+                    <img src="images/bluepalette.png" class="position-absolute translate-middle ms-5 mt-5 d-md-none start-15" width="250" alt="">
+
+                    <img src="images/pinkpaletteframe.png" class="position-absolute ms-5 translate-middle top-80 d-none d-md-block" width="250" alt="">
+                    <img src="images/pinkpalette.png" class="position-absolute ms-5 translate-middle top-80 d-none d-md-block" width="200" alt="">
+                    <img src="images/pinkpaletteframe.png" class="position-absolute ms-5 translate-middle start-15 top-80 d-md-none" width="200" alt="">
+                    <img src="images/pinkpalette.png" class="position-absolute ms-5 translate-middle start-15 top-80 d-md-none" width="150" alt="">
+
+                    <img src="images/purplepalette.png" class="position-absolute translate-middle start-85 top-50 d-none d-md-block" width="300" alt="">
+                    <img src="images/purplepalette.png" class="position-absolute translate-middle start-75 top-50 d-md-none" width="200" alt="">
                     <img src="images/heroimg.png" class="img-fluid" width="500" alt="">
+                    
                 </div>
             </div>
         </div>
@@ -57,7 +69,7 @@
     <div class="container">
         <div class="row mt-5">
             <div class="col text-center mt-5 pt-5">
-                <h4 class="fw-bold pt-4">Our Service</h4>
+                <h4 class="text-purple fw-bold pt-4">Our Service</h4>
                 <header class="display-5 fw-bold py-2">See Our Service Option.</header>
             </div>
         </div>
@@ -110,14 +122,24 @@
         </div>
     </div>
 
-    <!-- İmages Picker -->
+    <!-- Images Picker -->
     <div class="container">
         <div class="row py-5 align-items-center">
-            <div class="col-md-6 text-center">
+            <div class="col-lg-6 text-center position-relative">
                 <img class="img-fluid" src="images/towerimg.png" width="400" alt="">
+                <img src="images/pointgrouppicker.png" class="img-fluid position-absolute translate-middle z-bottom top-30 start-61" width="300" alt="">
+                <img src="images/brownpalette.png" class="position-absolute translate-middle top-30 start-85 d-none d-md-block" width="350" alt="">
+                <img src="images/brownpalette.png" class="position-absolute translate-middle top-0 start-50 d-md-none" width="350" alt="">
+                <div class="position-absolute translate-middle start-50 pb-5">
+                    <img src="images/Color0.png" width="50" alt="">
+                    <img src="images/Color1.png" width="50" alt="">
+                    <img src="images/Color2.png" width="50" alt="">
+                    <img src="images/Color3.png" width="50" alt="">
+                    <img src="images/Color4.png" width="50" alt="">
+                </div>
             </div>
-            <div class="col-md-6">
-                <h4>Images Picker</h4>
+            <div class="col-lg-6 ps-5 pt-5 pt-md-0">
+                <h4 class="text-purple fw-bold">Images Picker</h4>
                 <header class="display-6 fw-bold py-2">Create Beautiful Palettes From Your Photos.</header>
                 <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia assumenda quasi numquam similique eligendi, excepturi a eveniet rerum dolor in, vel eum dolores cum voluptate fugiat maiores, sapiente ullam! Itaque!</p>
                 <button class="btn btn-purple btn-lg text-light px-5 shadow rounded-pill px-3 fw-bold">Learn More</button>
@@ -129,7 +151,7 @@
     <div class="container">
         <div class="row mt-5">
             <div class="col text-center pt-5">
-                <h4 class="fw-bold pt-4">Color Palette</h4>
+                <h4 class="text-purple fw-bold pt-4">Color Palette</h4>
                 <header class="display-5 fw-bold py-2">Popular Color Palette</header>
             </div>
         </div>
@@ -281,7 +303,7 @@
         <div class="container">
             <div class="row my-5 pt-5">
                 <div class="col-lg-5 mt-5 text-start">
-                    <h4 class="fw-bold pt-4">Get Started</h4>
+                    <h4 class="text-purple fw-bold pt-4">Get Started</h4>
                     <header class="display-6 fw-bold py-2">Join Us To Get More Palette Color.</header>
                 </div>
                 <div class="col-lg-1 d-flex align-items-center">

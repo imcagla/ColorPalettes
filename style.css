@@ -27,6 +27,24 @@ body {
 .w-90 {
     width: 90%;
 }
+.top-30 {
+    top: 32%;
+}
+.top-80 {
+    top:80%;
+}
+.start-15 {
+    left: 15%;
+}
+.start-61 {
+    left: 61%;
+}
+.start-75 {
+    left: 75%;
+}
+.start-85 {
+    left: 85%;
+}
 .bg-lilac {
     background-color: #DEDDFA;
     width: 55px;
@@ -74,16 +92,18 @@ body {
 .border-purple {
     border-color: #B7799D;
     height: 50px;
-    width: 300px;
 }
 
 .contact-footer-bg  {
     background-color: #F0D1E6;
     position: absolute;
 }
-
 .btn-purple:hover{
     background-color: white;
     color: #B7799D !important;
     border: 1px solid #B7799D;
+}
+
+.text-purple {
+    color: #B7799D !important;
 }
