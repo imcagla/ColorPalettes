@@ -1,6 +1,6 @@
 function copyColor(item) {
     navigator.clipboard.writeText(item.nextElementSibling.innerHTML)
-    alert("color copied!")
+    alert("Color copied!")
 }
 
 const colorsArr = [

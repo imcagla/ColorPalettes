@@ -36,14 +36,17 @@ body {
 .start-15 {
     left: 15%;
 }
-.start-61 {
-    left: 61%;
+.start-45 {
+    left: 45%;
+}
+.start-60 {
+    left: 59%;
 }
 .start-75 {
     left: 75%;
 }
-.start-85 {
-    left: 85%;
+.start-80 {
+    left: 80%;
 }
 .bg-lilac {
     background-color: #DEDDFA;
@@ -107,3 +110,4 @@ body {
 .text-purple {
     color: #B7799D !important;
 }
+
